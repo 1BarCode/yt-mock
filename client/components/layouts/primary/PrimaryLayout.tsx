@@ -1,5 +1,4 @@
 import Head from "next/head";
-import styles from "./PrimaryLayout.module.css";
 
 export type Props = {
     children: React.ReactNode;
