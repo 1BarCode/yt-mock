@@ -1,14 +1,14 @@
 {
-    "name": "client",
+    "name": "yt-mock",
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "prepare": "cd .. && husky install client/.husky",
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "prettier": "prettier --write ."
+        "prettier": "prettier --write .",
+        "prepare": "husky install"
     },
     "dependencies": {
         "@next/font": "13.1.1",
