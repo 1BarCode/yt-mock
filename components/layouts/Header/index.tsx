@@ -1,6 +1,6 @@
 import AccountCircle from "@mui/icons-material/AccountCircle";
+import AdbIcon from "@mui/icons-material/Adb";
 import MailIcon from "@mui/icons-material/Mail";
-import MenuIcon from "@mui/icons-material/Menu";
 import MoreIcon from "@mui/icons-material/MoreVert";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import SearchIcon from "@mui/icons-material/Search";
@@ -14,7 +14,8 @@ import MenuItem from "@mui/material/MenuItem";
 import { alpha, styled } from "@mui/material/styles";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import { MouseEvent, useState } from "react";
+import { Fragment, MouseEvent, useState } from "react";
+import Drawer from "../Drawer";
 
 const Search = styled("div")(({ theme }) => ({
     position: "relative",
@@ -162,26 +163,22 @@ const Header: React.FC<Props> = (props) => {
     );
 
     return (
-        <Box sx={{ flexGrow: 1 }}>
+        <Fragment>
             <AppBar position="static">
                 <Toolbar>
-                    <IconButton
-                        size="large"
-                        edge="start"
-                        color="inherit"
-                        aria-label="open drawer"
-                        sx={{ mr: 2 }}
-                    >
-                        <MenuIcon />
-                    </IconButton>
+                    <Drawer />
+                    <AdbIcon
+                        sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
+                    />
                     <Typography
                         variant="h6"
                         noWrap
                         component="div"
                         sx={{ display: { xs: "none", sm: "block" } }}
                     >
-                        MUI
+                        YouTube
                     </Typography>
+                    <Box sx={{ flexGrow: 1 }} />
                     <Search>
                         <SearchIconWrapper>
                             <SearchIcon />
@@ -239,7 +236,7 @@ const Header: React.FC<Props> = (props) => {
             </AppBar>
             {renderMobileMenu}
             {renderMenu}
-        </Box>
+        </Fragment>
     );
 };
 
