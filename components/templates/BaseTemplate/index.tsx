@@ -4,7 +4,7 @@ export type Props = {
     sampleTextProps: string;
 };
 
-const BaseTemplate = ({ sampleTextProps }: Props) => {
+const BaseTemplate: React.FC<Props> = ({ sampleTextProps }) => {
     return <div className={styles.container}>{sampleTextProps}</div>;
 };
 
