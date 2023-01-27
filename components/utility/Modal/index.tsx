@@ -22,6 +22,7 @@ const Modal: React.FC<Props> = ({
         }
     };
 
+    console.log("styles", styles);
     console.log(styles.fadeOut);
 
     return (

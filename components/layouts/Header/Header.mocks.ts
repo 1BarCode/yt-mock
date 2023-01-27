@@ -1,14 +1,8 @@
 // mock data that matches the props type / interface for easy testing
 
-import { Props } from ".";
+const base: any = {};
 
-const base: Props = {
-    sampleTextProps: "Hello World!",
-};
-
-const alt: Props = {
-    sampleTextProps: "Hello Alt World!",
-};
+const alt: any = {};
 
 export const mockHeaderProps = {
     base,
