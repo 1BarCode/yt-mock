@@ -22,9 +22,6 @@ const Modal: React.FC<Props> = ({
         }
     };
 
-    console.log("styles", styles);
-    console.log(styles.fadeOut);
-
     return (
         <>
             {isOpen && (
@@ -34,7 +31,7 @@ const Modal: React.FC<Props> = ({
                 >
                     <div
                         className={`bg-white p-6 rounded-lg w-3/4 md:w-1/2 lg:w-1/3 xl:w-1/4 ${
-                            isOpen ? styles.slideIn : styles.hidden
+                            isOpen ? styles.slideInOpen : styles.hidden
                         }`}
                     >
                         <div className="flex justify-end">

@@ -1,14 +1,14 @@
-.fade-out {
+.fadeOut {
     opacity: 1;
     transition: opacity 0.5s ease-out;
 }
 
-.slide-in {
+.slideIn {
     transform: translateY(-100%);
     transition: transform 0.5s ease-out;
 }
 
-.slide-in.open {
+.slideInOpen {
     transform: translateY(0);
 }
 
