@@ -57,9 +57,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
 }));
 
-export type Props = {};
-
-const Header: React.FC<Props> = (props) => {
+const Header: React.FC = () => {
     const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
     const [mobileMoreAnchorEl, setMobileMoreAnchorEl] =
         useState<null | HTMLElement>(null);

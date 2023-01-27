@@ -14,9 +14,7 @@ import { Fragment, useState } from "react";
 
 type Anchor = "top" | "left" | "bottom" | "right";
 
-export type Props = {};
-
-const Drawer: React.FC<Props> = (props) => {
+const Drawer: React.FC = () => {
     const [state, setState] = useState({
         top: false,
         left: false,
