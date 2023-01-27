@@ -1,10 +1,8 @@
 // mock data that matches the props type / interface for easy testing
 
-import { Props } from ".";
+const base: any = {};
 
-const base: Props = {};
-
-const alt: Props = {};
+const alt: any = {};
 
 export const mockDrawerProps = {
     base,
