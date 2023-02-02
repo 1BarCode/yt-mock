@@ -2,7 +2,6 @@ import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Link from "next/link";
-import { useWindowSize } from "usehooks-ts";
 import Header from "../Header";
 
 export type Props = {
@@ -10,18 +9,6 @@ export type Props = {
 };
 
 const PrimaryLayout: React.FC<Props> = ({ children }) => {
-    // const { isServer } = useSsr();
-    // const useIsMounted()
-    const { height } = useWindowSize();
-
-    const leftSideBarHeight = `${height - 56}px`;
-
-    // console.log(height);
-    // console.log("leftSideBarHeight", leftSideBarHeight);
-    // h-[${leftSideBarHeight}]
-
-    // if (isServer) return null;
-
     return (
         <>
             <Head>
@@ -32,8 +19,7 @@ const PrimaryLayout: React.FC<Props> = ({ children }) => {
                 <Header />
                 <div className="flex">
                     <div
-                        className={`w-16 h-[${leftSideBarHeight}] border-2 border-white flex flex-col`}
-                        style={{ height: `${leftSideBarHeight}` }}
+                        className={`w-16 h-[calc(100vh-56px)] border-2 border-white flex flex-col`}
                     >
                         <Link href={"/"}>
                             {" "}
@@ -52,7 +38,7 @@ const PrimaryLayout: React.FC<Props> = ({ children }) => {
                             <FontAwesomeIcon icon={faHome} />
                         </Link>
                     </div>
-                    <main className="min-h-screen flex flex-col">
+                    <main className="min-h-[calc(100vh-56px)] flex flex-col">
                         {children}
                     </main>
                 </div>
