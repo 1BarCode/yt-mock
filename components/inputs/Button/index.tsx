@@ -1,20 +1,27 @@
+import classNames from "classnames";
 import { ReactNode } from "react";
 
 export type Props = {
     children: ReactNode;
     secondary?: boolean;
+    rounded?: boolean;
     className?: string;
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 const Button: React.FC<Props> = ({
     children,
-    secondary,
-    className,
+    secondary = false,
+    rounded = false,
+    className = "",
     ...buttonProps
 }) => {
-    const classes = `px-4 py-2 rounded-md ${
-        secondary ? "bg-gray-300 text-gray-800" : "bg-blue-500 text-white"
-    } ${className}`;
+    const classes = classNames({
+        "px-4 py-2": true,
+        "bg-black-500 hover:bg-black-300 text-white": !secondary,
+        "bg-white hover:bg-gray text-black-500": secondary,
+        "rounded-full": rounded,
+        [className]: Boolean(className),
+    });
 
     return (
         <button type="button" className={classes} {...buttonProps}>

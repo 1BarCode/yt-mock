@@ -1,5 +1,3 @@
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ReactElement, useState } from "react";
 import Button from "../components/inputs/Button";
 import PrimaryLayout from "../components/layouts/PrimaryLayout";
@@ -17,13 +15,7 @@ const Home: NextPageWithLayout = () => {
             <Modal
                 isOpen={isOpen}
                 onClose={handleClose}
-                button={
-                    <Button onClick={handleOpen}>
-                        {" "}
-                        <FontAwesomeIcon icon={faBars} />
-                        Open Modal
-                    </Button>
-                }
+                button={<Button onClick={handleOpen}>Open Modal</Button>}
             >
                 <h2>Are you sure you want to leave?</h2>
                 <Button onClick={handleClose}>Close Modal</Button>
