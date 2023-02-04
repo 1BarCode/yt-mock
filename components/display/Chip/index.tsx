@@ -3,14 +3,12 @@ import { ReactNode } from "react";
 
 export type Props = {
     label: ReactNode;
-    onClick?: () => void;
     variant?: "filled" | "outlined";
     className?: string;
 } & React.HTMLAttributes<HTMLDivElement>;
 
 const Chip: React.FC<Props> = ({
     label,
-    onClick,
     variant = "filled",
     className = "",
     ...divProps
