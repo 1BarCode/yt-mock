@@ -1,12 +1,10 @@
 import { faUser } from "@fortawesome/free-regular-svg-icons";
-import {
-    faBars,
-    faEllipsisV,
-    faMagnifyingGlass,
-    faMicrophone,
-} from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { yupResolver } from "@hookform/resolvers/yup";
+import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
+import MicRoundedIcon from "@mui/icons-material/MicRounded";
+import MoreVertRoundedIcon from "@mui/icons-material/MoreVertRounded";
 import Image from "next/image";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
@@ -42,11 +40,7 @@ const Header: React.FC = () => {
                         className="bg-black-900 px-2 flex justify-center items-center"
                         rounded
                     >
-                        <FontAwesomeIcon
-                            icon={faBars}
-                            fontSize="lg"
-                            className="h-6 w-6"
-                        />
+                        <MenuRoundedIcon />
                     </Button>
                     <Link href={"/"} className="pl-4">
                         <Image
@@ -82,7 +76,7 @@ const Header: React.FC = () => {
                         className="bg-black-900 px-2 flex justify-center items-center ml-2 h-10 w-10"
                         rounded
                     >
-                        <FontAwesomeIcon icon={faMicrophone} />
+                        <MicRoundedIcon />
                     </Button>
                 </div>
 
@@ -91,7 +85,7 @@ const Header: React.FC = () => {
                         className="bg-black-900 px-2 flex justify-center items-center mr-1 h-10 w-10"
                         rounded
                     >
-                        <FontAwesomeIcon icon={faEllipsisV} size="lg" />
+                        <MoreVertRoundedIcon />
                     </Button>
                     <Button
                         className="flex justify-center items-center text-blue-400 bg-black-900 border-[1px] border-black-300 h-[34px] w-25"

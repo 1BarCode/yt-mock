@@ -11,7 +11,6 @@ const Home: NextPageWithLayout = () => {
 
     return (
         <section>
-            <h1>Next App</h1>
             <Modal
                 isOpen={isOpen}
                 onClose={handleClose}
