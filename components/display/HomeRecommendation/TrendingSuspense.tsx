@@ -8,8 +8,8 @@ const TrendingSuspense: React.FC<Props> = () => {
     const {
         data,
         error,
-        isError,
-        isLoading,
+        // isError,
+        // isLoading,
         refetch: refetchTrending,
     } = useQuery(["trending"], () => searchHandler("trending"), {
         useErrorBoundary: true,
