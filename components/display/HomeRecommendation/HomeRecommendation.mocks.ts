@@ -3,11 +3,11 @@
 import { Props } from ".";
 
 const base: Props = {
-    sampleTextProps: "Hello World!",
+    selectedCategory: "Hello World!",
 };
 
 const alt: Props = {
-    sampleTextProps: "Hello Alt World!",
+    selectedCategory: "Hello Alt World!",
 };
 
 export const mockTrendingProps = {
