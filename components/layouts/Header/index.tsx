@@ -28,8 +28,10 @@ const Header: React.FC = () => {
         },
     });
 
-    const onSubmit = (query: Search) => {
+    const onSubmit = async (query: Search) => {
         console.log("query", query);
+
+        console.log("making api call");
     };
 
     return (
