@@ -4,7 +4,7 @@ export type Props = {
 };
 
 const ErrorFallback: React.FC<Props> = ({ error, resetErrorBoundary }) => {
-    console.log(error);
+    // console.log(error);
     if (error?.response?.status >= 400 && error?.response?.status < 500) {
         return (
             <div role="alert">
