@@ -9,7 +9,7 @@ export type Props = {
 
 const HomeRecommendation: React.FC<Props> = ({ selectedCategory }) => {
     const { data, error, isError, isLoading } = useQuery(
-        ["homeRecommendation", selectedCategory],
+        ["homeRecommendation"],
         () => mockSearchHander(selectedCategory),
         {
             retry: false,

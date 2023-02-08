@@ -15,7 +15,9 @@ module.exports = {
             xl: "1440px",
         },
         colors: {
-            ...colors,
+            inherit: colors.inherit,
+            current: colors.current,
+            blue: colors.blue,
             black: {
                 light: "#282828",
                 300: "#3d3d3d",

@@ -11,6 +11,7 @@ export type Props = {
 };
 
 const PrimaryLayout: React.FC<Props> = ({ children }) => {
+    const headerHeight = "56px";
     return (
         <>
             <Head>
@@ -21,13 +22,15 @@ const PrimaryLayout: React.FC<Props> = ({ children }) => {
                 <Header />
                 <div className="flex">
                     {/* Sidebar */}
-                    <div className={`w-[75px] px-1 h-[calc(100vh-56px)]`}>
+                    <div
+                        className={`w-[75px] px-1 h-[calc(100vh-${headerHeight})]`}
+                    >
                         {/* Container */}
                         <div className="mt-3 w-full my-3 flex flex-col items-center">
                             {/* Individual Link */}
                             <Link
                                 href={"/"}
-                                className="w-full h-[74px] flex justify-center items-center hover:bg-black-300 hover:rounded-lg"
+                                className="w-full h-[74px] flex justify-center items-center hover:bg-black-300 hover:rounded-lg cursor-pointer"
                             >
                                 <div className="flex flex-col items-center">
                                     <HomeIcon />
@@ -72,7 +75,9 @@ const PrimaryLayout: React.FC<Props> = ({ children }) => {
                         </div>
                     </div>
 
-                    <main className="min-h-[calc(100vh-56px)] flex flex-col">
+                    <main
+                        className={`min-h-[calc(100vh-${headerHeight})] flex flex-col`}
+                    >
                         {children}
                     </main>
                 </div>

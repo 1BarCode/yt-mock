@@ -60,11 +60,7 @@ const Home: NextPageWithLayout = () => {
         <Chip
             key={label}
             label={label}
-            className={
-                selected
-                    ? "rounded-lg cursor-pointer bg-white text-black-500 hover:bg-white"
-                    : "rounded-lg cursor-pointer"
-            }
+            isActive={selected}
             onClick={() => selectCategory(label)}
         />
     ));
