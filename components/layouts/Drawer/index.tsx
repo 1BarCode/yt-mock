@@ -1,120 +1,55 @@
-import MailIcon from "@mui/icons-material/Mail";
-import MenuIcon from "@mui/icons-material/Menu";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import { IconButton } from "@mui/material";
-import Box from "@mui/material/Box";
-import Divider from "@mui/material/Divider";
-import MUIDrawer from "@mui/material/Drawer";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import { Fragment, useState } from "react";
-
-type Anchor = "top" | "left" | "bottom" | "right";
+import { VideoLibraryOutlined } from "@mui/icons-material";
+import HomeIcon from "@mui/icons-material/Home";
+import RestoreRoundedIcon from "@mui/icons-material/RestoreRounded";
+import SubscriptionsOutlinedIcon from "@mui/icons-material/SubscriptionsOutlined";
+import Link from "next/link";
 
 const Drawer: React.FC = () => {
-    const [state, setState] = useState({
-        top: false,
-        left: false,
-        bottom: false,
-        right: false,
-    });
+    const headerHeight = "56px";
 
-    const toggleDrawer =
-        (anchor: Anchor, open: boolean) =>
-        (event: React.KeyboardEvent | React.MouseEvent) => {
-            if (
-                event.type === "keydown" &&
-                ((event as React.KeyboardEvent).key === "Tab" ||
-                    (event as React.KeyboardEvent).key === "Shift")
-            ) {
-                return;
-            }
+    const links = [
+        {
+            href: "/",
+            icon: <HomeIcon />,
+            name: "Home",
+        },
+        {
+            href: "/",
+            icon: <SubscriptionsOutlinedIcon />,
+            name: "Subscription",
+        },
+        {
+            href: "/",
+            icon: <VideoLibraryOutlined />,
+            name: "Library",
+        },
+        {
+            href: "/",
+            icon: <RestoreRoundedIcon />,
+            name: "History",
+        },
+    ];
 
-            setState({ ...state, [anchor]: open });
-        };
-
-    const list = (anchor: Anchor) => (
-        <Box
-            sx={{
-                width: anchor === "top" || anchor === "bottom" ? "auto" : 250,
-            }}
-            role="presentation"
-            onClick={toggleDrawer(anchor, false)}
-            onKeyDown={toggleDrawer(anchor, false)}
+    const DrawerLinks = links.map(({ href, icon, name }) => (
+        <Link
+            href={href}
+            className="w-full h-[74px] flex justify-center items-center hover:bg-black-300 hover:rounded-lg cursor-pointer"
+            key={name}
         >
-            <List>
-                <ListItem disablePadding>
-                    <ListItemButton>
-                        <IconButton
-                            size="large"
-                            edge="start"
-                            color="inherit"
-                            aria-label="open drawer"
-                            sx={{ mr: 2 }}
-                            onClick={toggleDrawer("left", true)}
-                        >
-                            <MenuIcon />
-                        </IconButton>
-                    </ListItemButton>
-                </ListItem>
-
-                {["Inbox", "Starred", "Send email", "Drafts"].map(
-                    (text, index) => (
-                        <ListItem key={text} disablePadding>
-                            <ListItemButton>
-                                <ListItemIcon>
-                                    {index % 2 === 0 ? (
-                                        <InboxIcon />
-                                    ) : (
-                                        <MailIcon />
-                                    )}
-                                </ListItemIcon>
-                                <ListItemText primary={text} />
-                            </ListItemButton>
-                        </ListItem>
-                    )
-                )}
-            </List>
-            <Divider />
-            <List>
-                {["All mail", "Trash", "Spam"].map((text, index) => (
-                    <ListItem key={text} disablePadding>
-                        <ListItemButton>
-                            <ListItemIcon>
-                                {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                            </ListItemIcon>
-                            <ListItemText primary={text} />
-                        </ListItemButton>
-                    </ListItem>
-                ))}
-            </List>
-        </Box>
-    );
+            <div className="flex flex-col items-center">
+                {icon}
+                <span className="text-xs font-light mt-2">{name}</span>
+            </div>
+        </Link>
+    ));
 
     return (
-        <div>
-            <Fragment>
-                <IconButton
-                    size="large"
-                    edge="start"
-                    color="inherit"
-                    aria-label="open drawer"
-                    sx={{ mr: 2 }}
-                    onClick={toggleDrawer("left", true)}
-                >
-                    <MenuIcon />
-                </IconButton>
-                <MUIDrawer
-                    anchor={"left"}
-                    open={state["left"]}
-                    onClose={toggleDrawer("left", false)}
-                >
-                    {list("left")}
-                </MUIDrawer>
-            </Fragment>
+        <div className={`w-[75px] px-1 min-h-[calc(100vh-${headerHeight})]`}>
+            {/* Container */}
+            <div className="mt-3 w-full my-3 flex flex-col items-center">
+                {/* Individual Links */}
+                {DrawerLinks}
+            </div>
         </div>
     );
 };
