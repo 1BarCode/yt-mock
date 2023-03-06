@@ -1,7 +1,9 @@
 import { AxiosError } from "axios";
+import Image from "next/image";
+import Link from "next/link";
 import { useQuery } from "react-query";
 import { FadeLoader } from "react-spinners";
-import { mockSearchHander } from "../../../lib/config/youtube";
+import { searchHandler } from "../../../lib/config/youtube";
 
 export type Props = {
     selectedCategory: string;
@@ -10,7 +12,7 @@ export type Props = {
 const HomeRecommendation: React.FC<Props> = ({ selectedCategory }) => {
     const { data, error, isError, isLoading } = useQuery(
         ["recommended", selectedCategory],
-        () => mockSearchHander(selectedCategory),
+        () => searchHandler(selectedCategory),
         {
             retry: false,
             refetchOnWindowFocus: false,
@@ -29,11 +31,40 @@ const HomeRecommendation: React.FC<Props> = ({ selectedCategory }) => {
             {/* Each row */}
             <div className="mx-4 flex flex-wrap">
                 {data?.data.items.map((video: any) => (
-                    <div
-                        className="w-3/12 border-white border-[1px]"
-                        key={video.id.videoId}
-                    >
-                        {video.snippet.title}
+                    <div className="w-3/12" key={video.id.videoId}>
+                        <div className="mx-2 mb-10">
+                            <Link
+                                className="flex flex-col gap-y-2"
+                                href={{
+                                    pathname: "/watch",
+                                    query: { v: video.id.videoId },
+                                }}
+                            >
+                                <div>
+                                    <Image
+                                        alt="thumbnail"
+                                        src={
+                                            video.snippet.thumbnails.medium.url
+                                        }
+                                        width={360}
+                                        height={201}
+                                        className="rounded-xl"
+                                    />
+                                </div>
+                                <div className="flex gap-x-2">
+                                    <div>
+                                        <div>Ava</div>
+                                    </div>
+                                    <div className="flex flex-col">
+                                        <div>{video.snippet.title}</div>
+                                        <span>
+                                            {video.snippet.channelTitle}
+                                        </span>
+                                        <span>{video.snippet.publishedAt}</span>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                 ))}
             </div>

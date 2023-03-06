@@ -43,13 +43,13 @@ const Home: NextPageWithLayout = () => {
 
     const selectCategory = (label: string) => {
         setCategories((prev) =>
-            prev.map((cat) => {
-                if (cat.label === label) {
-                    cat.selected = true;
-                    return cat;
+            prev.map((category) => {
+                if (category.label === label) {
+                    category.selected = true;
+                    return category;
                 } else {
-                    cat.selected = false;
-                    return cat;
+                    category.selected = false;
+                    return category;
                 }
             })
         );
@@ -67,7 +67,7 @@ const Home: NextPageWithLayout = () => {
 
     return (
         <section>
-            <div className="p-3">
+            <div className="p-3 pb-0">
                 <div className="ml-3 flex gap-3">{ChipCategories}</div>
             </div>
 
