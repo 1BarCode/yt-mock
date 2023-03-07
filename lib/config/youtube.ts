@@ -28,3 +28,23 @@ export const mockSearchHander = (query: string): Promise<any> => {
         }, 300);
     });
 };
+
+export const searchMovieHandler = (videoId: string) => {
+    return youtube.get("videos", {
+        // get the video details including statistics and suggestions
+        params: {
+            part: "statistics,snippet",
+            key: api_key,
+            id: videoId,
+        },
+    });
+};
+
+export const mockSearchMovieHandler = (videoId: string): Promise<any> => {
+    console.log(`fetching ${videoId}`);
+    return new Promise((res) => {
+        setTimeout(() => {
+            res({ data });
+        }, 300);
+    });
+};

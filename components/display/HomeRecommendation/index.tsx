@@ -2,8 +2,8 @@ import { AxiosError } from "axios";
 import Image from "next/image";
 import Link from "next/link";
 import { useQuery } from "react-query";
-import { FadeLoader } from "react-spinners";
 import { searchHandler } from "../../../lib/config/youtube";
+import LoaderOverlay from "../../utility/LoaderOverlay";
 
 export type Props = {
     selectedCategory: string;
@@ -22,7 +22,7 @@ const HomeRecommendation: React.FC<Props> = ({ selectedCategory }) => {
     );
     console.log("data", data);
 
-    if (isLoading) return <FadeLoader loading={isLoading} color="#FFFFFF" />;
+    if (isLoading) return <LoaderOverlay isLoading={isLoading} />;
 
     if (isError) return <div>{error.message}</div>;
 
@@ -49,6 +49,7 @@ const HomeRecommendation: React.FC<Props> = ({ selectedCategory }) => {
                                         width={360}
                                         height={201}
                                         className="rounded-xl"
+                                        priority
                                     />
                                 </div>
                                 <div className="flex gap-x-2">

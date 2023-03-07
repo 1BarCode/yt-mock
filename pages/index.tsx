@@ -79,7 +79,7 @@ const Home: NextPageWithLayout = () => {
 };
 
 Home.getLayout = function getLayout(page: ReactElement) {
-    return <PrimaryLayout>{page}</PrimaryLayout>;
+    return <PrimaryLayout drawer={true}>{page}</PrimaryLayout>;
 };
 
 export default Home;

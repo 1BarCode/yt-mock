@@ -4,10 +4,11 @@ import Header from "../Header";
 
 export type Props = {
     children: React.ReactNode;
+    drawer: boolean;
 };
 
-const PrimaryLayout: React.FC<Props> = ({ children }) => {
-    const headerHeight = "56px";
+const PrimaryLayout: React.FC<Props> = ({ children, drawer }) => {
+    // const headerHeight = "56px";
 
     return (
         <>
@@ -19,10 +20,11 @@ const PrimaryLayout: React.FC<Props> = ({ children }) => {
                 <Header />
                 <div className="flex">
                     {/* Sidebar */}
-                    <Drawer />
+                    {drawer && <Drawer />}
 
                     <main
-                        className={`min-h-[calc(100vh-${headerHeight}))] flex flex-col`}
+                        // className={`min-h-[calc(100vh-${headerHeight}))] flex flex-col`}
+                        className={`min-h-screen flex flex-col w-full`}
                     >
                         {children}
                     </main>
