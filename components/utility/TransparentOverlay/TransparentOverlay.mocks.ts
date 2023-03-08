@@ -3,11 +3,11 @@
 import { Props } from ".";
 
 const base: Props = {
-    sampleTextProps: "Hello World!",
+    isLoading: true,
 };
 
 const alt: Props = {
-    sampleTextProps: "Hello Alt World!",
+    isLoading: true,
 };
 
 export const mockTransparentOverlayProps = {
