@@ -1,3 +1,4 @@
+import classNames from "classnames";
 import Head from "next/head";
 import Drawer from "../Drawer";
 import Header from "../Header";
@@ -5,10 +6,21 @@ import Header from "../Header";
 export type Props = {
     children: React.ReactNode;
     drawer: boolean;
+    backgroundColor?: string;
 };
 
-const PrimaryLayout: React.FC<Props> = ({ children, drawer }) => {
+const PrimaryLayout: React.FC<Props> = ({
+    children,
+    drawer,
+    backgroundColor = "",
+}) => {
     // const headerHeight = "56px";
+
+    const mainClassNames = classNames({
+        // [`min-h-[calc(100vh-${headerHeight}))] flex flex-col w-full`]: true,
+        [`min-h-screen flex flex-col w-full`]: true,
+        [backgroundColor]: backgroundColor,
+    });
 
     return (
         <>
@@ -16,18 +28,11 @@ const PrimaryLayout: React.FC<Props> = ({ children, drawer }) => {
                 <title>YouTube Mock</title>
             </Head>
             <div className="bg-black-900 text-white">
-                {/* Header */}
                 <Header />
                 <div className="flex">
-                    {/* Sidebar */}
                     {drawer && <Drawer />}
 
-                    <main
-                        // className={`min-h-[calc(100vh-${headerHeight}))] flex flex-col`}
-                        className={`min-h-screen flex flex-col w-full`}
-                    >
-                        {children}
-                    </main>
+                    <main className={mainClassNames}>{children}</main>
                 </div>
                 {/* <div className="m-auto" /> */}
                 {/* Footer */}

@@ -32,7 +32,7 @@ const Watch: NextPageWithLayout = () => {
     if (isError) return <div>{error?.message}</div>;
 
     return (
-        <section className="pt-6 px-[72px] w-full flex gap-x-6">
+        <section className="pt-6 px-24 w-full flex gap-x-6">
             <div className="w-9/12">
                 <div>
                     <VideoPlayer videoId={videoId} />
@@ -49,7 +49,14 @@ const Watch: NextPageWithLayout = () => {
 };
 
 Watch.getLayout = function getLayout(page: ReactElement) {
-    return <PrimaryLayout drawer={false}>{page}</PrimaryLayout>;
+    return (
+        <PrimaryLayout
+            drawer={false}
+            backgroundColor="bg-gradient-to-r from-black-500 to-black-900"
+        >
+            {page}
+        </PrimaryLayout>
+    );
 };
 
 export default Watch;

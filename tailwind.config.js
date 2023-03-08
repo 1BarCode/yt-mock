@@ -30,6 +30,12 @@ module.exports = {
             },
             gray: "#aaaaaa",
             red: "#FF0000",
+            yellow: colors.yellow,
+            green: colors.green,
+            indigo: colors.indigo,
+            purple: colors.purple,
+            pink: colors.pink,
+            gray: colors.gray,
         },
         fontFamily: {
             sans: ["Roboto", "sans-serif"],
