@@ -7,8 +7,8 @@ const VideoPlayer: React.FC<Props> = ({ videoId }) => {
         <div
             // iframe with full width that maintain 16:9 aspect ratio
             className="max-w-[1280px] relative"
-            // style={{ paddingBottom: "56.25%" }}
-            style={{ paddingBottom: "50.00%" }}
+            style={{ paddingBottom: "56.25%" }}
+            // style={{ paddingBottom: "50.00%" }}
         >
             <iframe
                 // iframe with 1280x720 resolution and maintain aspect ratio with tailwind

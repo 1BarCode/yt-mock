@@ -48,3 +48,26 @@ export const mockSearchMovieHandler = (videoId: string): Promise<any> => {
         }, 300);
     });
 };
+
+export const getRelatedVideos = (videoId: string) => {
+    return youtube.get("search", {
+        params: {
+            part: "snippet",
+            key: api_key,
+            relatedToVideoId: videoId,
+            type: "video",
+            maxResults: 15,
+        },
+    });
+};
+
+export const getVideoComments = (videoId: string) => {
+    return youtube.get("commentThreads", {
+        params: {
+            part: "snippet",
+            key: api_key,
+            videoId,
+            maxResults: 15,
+        },
+    });
+};

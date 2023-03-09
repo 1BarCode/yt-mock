@@ -1,0 +1,617 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "5rGuXJ0-IrtCB_TagLgJunOFTzY",
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UdcxFJnESkvt_0FQ5-QxLDMIj9g",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "FctrXyBqYhI"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-22T00:50:16Z",
+                "channelId": "UCqvULRRboZeXVezSm_XduLQ",
+                "title": "5 Things YOU Didn't Know Your M2 MacBook Pro Could Do!",
+                "description": "Save your old iPhone with guides, parts, and tools from iFixit! http://ifix.gd/everydaydad\n\nToday I'm going to give you 5 of my favorite tips and tricks to get the most out of your M2 MacBook!  \n\nThe Best M2 MacBook Accessories!\nhttps://youtu.be/4jz9ZaMqqXg\n\n———————What Gear I Recommend!——————————\n\nFirst Mac ( M1 Mac Mini)\nhttps://amzn.to/3nFbedz\n\nBest Macbook (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nBest Travel Professional Windows Laptop (XPS 17)\nhttps://amzn.to/3zjgKJ2\n\nBest Thunderbolt 3 Dock (cal digit TS3 Plus)\nhttps://amzn.to/2RcHwAE\n\nBest Beginner YouTube Camera (Sony A6100)\nhttps://amzn.to/2RfSxRI\n\nBest Overall YouTube Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\n—————What Gear I Use!————————————————\n\nMain Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\nMain Lens (Tamron 28-75)\nhttps://amzn.to/32VdQxC\n\nSecondary Lens (Tamron 17-28)\nhttps://amzn.to/3zhNthx\n\nMain Computer (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nDISCLAIMER: This video and description contains affiliate links, which means that if you click on one of the Amazon product links, I’ll receive a small commission.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FctrXyBqYhI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FctrXyBqYhI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FctrXyBqYhI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/FctrXyBqYhI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/FctrXyBqYhI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "The Everyday Dad",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-22T00:50:16Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "lw-JrfBmTXruE5VQp6FA9izelU0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "VhmnPNIjvKc"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-11T12:43:35Z",
+                "channelId": "UCqvULRRboZeXVezSm_XduLQ",
+                "title": "YOU Should Buy the iPhone 11 in 2023, And Here's Why!",
+                "description": "The iPhone 11 continues to be a powerhouse of practical performance and even 4 years later you should totally buy one.\n\nSo why is that?\n\nLets find out!\n\niPhone 11\nhttps://amzn.to/3GW4YJK\n\n———————What Gear I Recommend!——————————\n\nFirst Mac ( M1 Mac Mini)\nhttps://amzn.to/3nFbedz\n\nBest Macbook (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nBest Travel Professional Windows Laptop (XPS 17)\nhttps://amzn.to/3zjgKJ2\n\nBest Thunderbolt 3 Dock (cal digit TS3 Plus)\nhttps://amzn.to/2RcHwAE\n\nBest Beginner YouTube Camera (Sony A6100)\nhttps://amzn.to/2RfSxRI\n\nBest Overall YouTube Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\n—————What Gear I Use!————————————————\n\nMain Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\nMain Lens (Tamron 28-75)\nhttps://amzn.to/32VdQxC\n\nSecondary Lens (Tamron 17-28)\nhttps://amzn.to/3zhNthx\n\nMain Computer (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nDISCLAIMER: This video and description contains affiliate links, which means that if you click on one of the Amazon product links, I’ll receive a small commission.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VhmnPNIjvKc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VhmnPNIjvKc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VhmnPNIjvKc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/VhmnPNIjvKc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/VhmnPNIjvKc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "The Everyday Dad",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-11T12:43:35Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "hhUFlMjbODcW5FAjo0tgS3Ep7Wg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "RvCLDx8Zuqs"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-28T13:09:49Z",
+                "channelId": "UCqvULRRboZeXVezSm_XduLQ",
+                "title": "I Bought the CHEAPEST M2 MacBook Air!  Was I Wrong?!",
+                "description": "SAVE 10% ON SQUARESPACE  Visit: https://squarespace.com/everydaydad and use the discount code “EVERYDAYDAD\" at check-out.\n\nIts been almost 6 months since I bought the cheapest version of the M2 MacBook Air, and its time to look back and see if that was a mistake and if I was wrong about the laptop.\n\nSo was I?\n\nLets find out!\n\nM2 MacBook Air.\nhttps://amzn.to/3WLQ6D4\n\nFollow me on Twitter!\nhttps://twitter.com/every_daydad\n\n———————What Gear I Recommend!——————————\n\nFirst Mac ( M1 Mac Mini)\nhttps://amzn.to/3nFbedz\n\nBest Macbook (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nBest Travel Professional Windows Laptop (XPS 17)\nhttps://amzn.to/3zjgKJ2\n\nBest Thunderbolt 3 Dock (cal digit TS3 Plus)\nhttps://amzn.to/2RcHwAE\n\nBest Beginner YouTube Camera (Sony A6100)\nhttps://amzn.to/2RfSxRI\n\nBest Overall YouTube Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\n—————What Gear I Use!————————————————\n\nMain Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\nMain Lens (Tamron 28-75)\nhttps://amzn.to/32VdQxC\n\nSecondary Lens (Tamron 17-28)\nhttps://amzn.to/3zhNthx\n\nMain Computer (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nDISCLAIMER: This video and description contains affiliate links, which means that if you click on one of the Amazon product links, I’ll receive a small commission.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/RvCLDx8Zuqs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/RvCLDx8Zuqs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/RvCLDx8Zuqs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/RvCLDx8Zuqs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/RvCLDx8Zuqs/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "The Everyday Dad",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-28T13:09:49Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Gb8zT2FPyyhAKpVFK5dFk-iYX2o",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ZZQI4gYSGsQ"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-30T14:09:36Z",
+                "channelId": "UCqvULRRboZeXVezSm_XduLQ",
+                "title": "The Best BUDGET Apple Ecosystem!",
+                "description": "Save your old iPhone with guides, parts, and tools from iFixit! http://ifix.gd/everydaydad\n\nToday lets check out the best functional apple ecosystem we can buy for 2023 while also saving a ton of money!\n\niPad Gen 9\nhttps://amzn.to/3EKhh9Q\n\niPhone 13 mini\nhttps://amzn.to/3OMJGAA\n\nAirPods Gen 3\nhttps://amzn.to/3gJQ9jt\n\nApple Watch SE 2\nhttps://amzn.to/3Fc0xts\n\nFollow me on Twitter!\nhttps://twitter.com/every_daydad\n\n———————What Gear I Recommend!——————————\n\nFirst Mac ( M1 Mac Mini)\nhttps://amzn.to/3nFbedz\n\nBest Macbook (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nBest Travel Professional Windows Laptop (XPS 17)\nhttps://amzn.to/3zjgKJ2\n\nBest Thunderbolt 3 Dock (cal digit TS3 Plus)\nhttps://amzn.to/2RcHwAE\n\nBest Beginner YouTube Camera (Sony A6100)\nhttps://amzn.to/2RfSxRI\n\nBest Overall YouTube Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\n—————What Gear I Use!————————————————\n\nMain Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\nMain Lens (Tamron 28-75)\nhttps://amzn.to/32VdQxC\n\nSecondary Lens (Tamron 17-28)\nhttps://amzn.to/3zhNthx\n\nMain Computer (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nDISCLAIMER: This video and description contains affiliate links, which means that if you click on one of the Amazon product links, I’ll receive a small commission.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZZQI4gYSGsQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZZQI4gYSGsQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZZQI4gYSGsQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ZZQI4gYSGsQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/ZZQI4gYSGsQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "The Everyday Dad",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-30T14:09:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tbq9mJohqzPdqcswtK9Tjxwl4pU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "x7uFdkayB1c"
+            },
+            "snippet": {
+                "publishedAt": "2022-09-28T11:01:19Z",
+                "channelId": "UCqvULRRboZeXVezSm_XduLQ",
+                "title": "Apple Watch Ultra One Week Later! Why Pay TWICE as Much?!",
+                "description": "Today lets check out how the brand new Apple Watch Ultra has been holding up for the past week!\n\nSeriously I don't know that I've ever gone from pretty meh about a product, to absolutely loving it.\n\nSo why is that?\n\nLets find out!\n\nApple Watch Ultra\nhttps://amzn.to/3UN1Ftc\n\nApple Watch Ultra Unboxing\nhttps://www.youtube.com/watch?v=OPDSOx1OAIA&t=387s\n\nFollow me on Twitter!\nhttps://twitter.com/every_daydad\n\n———————What Gear I Recommend!——————————\n\nFirst Mac ( M1 Mac Mini)\nhttps://amzn.to/3nFbedz\n\nBest Macbook (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nBest Travel Professional Windows Laptop (XPS 17)\nhttps://amzn.to/3zjgKJ2\n\nBest Thunderbolt 3 Dock (cal digit TS3 Plus)\nhttps://amzn.to/2RcHwAE\n\nBest Beginner YouTube Camera (Sony A6100)\nhttps://amzn.to/2RfSxRI\n\nBest Overall YouTube Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\n—————What Gear I Use!————————————————\n\nMain Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\nMain Lens (Tamron 28-75)\nhttps://amzn.to/32VdQxC\n\nSecondary Lens (Tamron 17-28)\nhttps://amzn.to/3zhNthx\n\nMain Computer (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nDISCLAIMER: This video and description contains affiliate links, which means that if you click on one of the Amazon product links, I’ll receive a small commission.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/x7uFdkayB1c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/x7uFdkayB1c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/x7uFdkayB1c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/x7uFdkayB1c/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/x7uFdkayB1c/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "The Everyday Dad",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-09-28T11:01:19Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "zJRReX9FlxVXEkwIC3Lv65SNiIM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "4czCmeorcQE"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-06T13:36:43Z",
+                "channelId": "UCqvULRRboZeXVezSm_XduLQ",
+                "title": "iPhone 14 Plus Two Months Later!  A Disappointing Evolution?",
+                "description": "Save your old iPhone with guides, parts, and tools from iFixit! http://ifix.gd/everydaydad\n\nThe iPhone 14 plus has been out for two months!  Has it been worth going bigger and canceling the mini lineup?\n\nLets find out!\n\nFollow me on Twitter!\nhttps://twitter.com/every_daydad\n\n———————What Gear I Recommend!——————————\n\nFirst Mac ( M1 Mac Mini)\nhttps://amzn.to/3nFbedz\n\nBest Macbook (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nBest Travel Professional Windows Laptop (XPS 17)\nhttps://amzn.to/3zjgKJ2\n\nBest Thunderbolt 3 Dock (cal digit TS3 Plus)\nhttps://amzn.to/2RcHwAE\n\nBest Beginner YouTube Camera (Sony A6100)\nhttps://amzn.to/2RfSxRI\n\nBest Overall YouTube Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\n—————What Gear I Use!————————————————\n\nMain Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\nMain Lens (Tamron 28-75)\nhttps://amzn.to/32VdQxC\n\nSecondary Lens (Tamron 17-28)\nhttps://amzn.to/3zhNthx\n\nMain Computer (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nDISCLAIMER: This video and description contains affiliate links, which means that if you click on one of the Amazon product links, I’ll receive a small commission.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4czCmeorcQE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4czCmeorcQE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4czCmeorcQE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4czCmeorcQE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/4czCmeorcQE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "The Everyday Dad",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-06T13:36:43Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "_pPj2P5VAoMaB4p1mTTDIrWXH8g",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "nxTHQfOG52o"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-19T14:56:11Z",
+                "channelId": "UCUq3Rn72jfQ-86CaCxj7XzA",
+                "title": "My Minimal Productivity Mac Desk Setup (for students, office work, developers, and more!)",
+                "description": "A minimal desk setup can be an extremely refreshing yet focusing element of your work routine. A simple screen and M1 MacBook Air paired with some basic accessories can be the perfect companion for students, developers, office work, web design, editors, and more. In this video I show you my very own minimalist, modern 2021 desk setup, including accessories from Dell, Logitech, Philips Hue, Anker, Apple, and Amazon.\n\nProducts in this video:\n⮕ M1 MacBook Air: https://geni.us/m1air\n⮕ Aluminum Laptop Stand: https://geni.us/vstand\n⮕ Dell UltraSharp 4K Monitor: https://geni.us/4kdisplay\n⮕ Apple Wireless Keyboard: https://geni.us/wirelesskeyboard\n⮕ Logitech Wireless Mouse (for Mac): https://geni.us/mxmouse\n⮕ Leather Desk Mat: https://geni.us/leatherdeskpad\n⮕ Adjustable Monitor Mount: https://geni.us/screenstand\n⮕ Philips Hue Lightstrip: https://geni.us/philipshuelightstrip\n⮕ Cheap Amazon LED Lightstrip: https://geni.us/amazonlightstrip\n⮕ Leather notebook: https://geni.us/papernotebook\n\nFind us here:\n🟣 Discord: https://crtd.tech/discord\n🌐 Website: https://createdtech.com/\n🐦 Twitter: https://twitter.com/createdtech\n📷 Instagram: https://www.instagram.com/createdtech\n\n00:00 Introduction\n01:20 The Desk\n02:20 The Monitor\n03:16 Lighting Behind The Monitor To Prevent Eye Strain\n05:19 Keyboard and IKEA Plants\n06:03 Logitech MX Master Wireless Mouse\n06:41 Laptop Stand, Leather Desk Mat, Notebook, and Chair\n07:41 Setup at Night Time\n\n--\nDisclaimer: Some of the above links are affiliate links, and I may receive a small commission (at no additional cost to you) if you make a purchase. As an Amazon Associate I earn from qualifying purchases.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nxTHQfOG52o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nxTHQfOG52o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nxTHQfOG52o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/nxTHQfOG52o/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/nxTHQfOG52o/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Created Tech",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-19T14:56:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "c5S6qsNi0xgeJ1SWqQ9Fl3LtIUw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "5VA11Zramns"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-08T21:58:59Z",
+                "channelId": "UCa962e5dqRMO1nUldwaaRMw",
+                "title": "What MacBooks Will Survive 2023?",
+                "description": "0:00 Skit\n1:48 Commentary\n\n● Tailosive Tech Plus: https://www.youtube.com/tailosivetech/join\n\n● Podcast: https://www.youtube.com/tailosivepodcasts\n\n● Discord: https://discordapp.com/invite/tailosive\n\n● Twitter:  https://twitter.com/tailosivetech\n\nChannel Art: Wouter-vA19 from our Discord\n\nIntro chime by: https://www.youtube.com/c/RandyVazquez",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5VA11Zramns/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5VA11Zramns/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5VA11Zramns/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/5VA11Zramns/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/5VA11Zramns/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Tailosive Tech",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-08T21:58:59Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xmCqYMc41RuNR14h8giX2tOSFs0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "RWvf1XAw3CM"
+            },
+            "snippet": {
+                "publishedAt": "2015-06-01T21:57:38Z",
+                "channelId": "UCW6J17hZ_Vgr6cQgd_kHt5A",
+                "title": "15\" Retina MacBook Pro (2015) vs.  13\" Retina MacBook Pro (2015) Comparison Smackdown",
+                "description": "Lisa Gade compares the 15\" Retina MacBook Pro (2015) and the 13\" Retina MacBook Pro (2015) laptops. Read our companion article here: http://www.mobiletechreview.com/notebooks/13-vs-15-Retina-MacBook-Pro-Comparison-2015.htm\nCheck out our video review of the 15\" Retina MacBook Pro (2015) at: https://www.youtube.com/watch?v=HRnVrlFfK0g\nCheck out written video review of the 15\" Retina MacBook Pro (2015) at: http://www.mobiletechreview.com/notebooks/15-inch-Retina-MacBook-Pro-2015.htm\nCheck out our video review of the 13\" Retina MacBook Pro (2015) at: https://www.youtube.com/watch?v=43QzpyCMbGE\nCheck out our written review of the 13\" Retina MacBook Pro (2015) at: http://www.mobiletechreview.com/notebooks/13-MacBook-Pro-Retina-2015.htm",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/RWvf1XAw3CM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/RWvf1XAw3CM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/RWvf1XAw3CM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/RWvf1XAw3CM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "MobileTechReview",
+                "liveBroadcastContent": "none",
+                "publishTime": "2015-06-01T21:57:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "lKAihFYvuYK5FDFmegDtylkegnc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "vKAJTIJT8_w"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-06T16:42:52Z",
+                "channelId": "UCc_ycus0q7DSd85ZkmEY5ig",
+                "title": "Do We Really Need This?",
+                "description": "There were a ton of concept phones shown off at Mobile World Congress in Barcelona, but David wants to discuss one of them in particular. \n\nWatch the full episode: https://bit.ly/wvfrmep157\nWhatgear video: https://www.youtube.com/watch?v=k7Uh2NdLLss\nMr. Mobile video: https://www.youtube.com/watch?v=vA7c9IR8T_o\n\nLinks:\nAutofocus video about chargers: https://bit.ly/Autofocusteslachargers\nMoto Rizr: https://tcrn.ch/3ZSG2tB\nOnePlus Concept: https://bit.ly/mkbhdoneplusconcept\nRedmi concept phone: https://bit.ly/redmiconceptphone\nLenovo rolling laptop: https://bit.ly/lenovorollinglaptop\niPhone short: https://bit.ly/ep157iphoneshort\nGoogle Keep widget news: https://bit.ly/ep157keepwidget\nMicrosoft Phone link: https://bit.ly/ep157phonelink\nSamsung video: https://bit.ly/ep157samsungvideo\nThe Daily Show with Hasan Minhaj: https://bit.ly/MKBHDTDS\n\nShop the merch:\nhttps://shop.mkbhd.com\n\nTwitters:\nWaveform: https://twitter.com/wvfrm\nMarques: https://twitter.com/mkbhd\nAndrew: https://twitter.com/andymanganelli\nDavid: https://twitter.com/DurvidImel\nAdam: https://twitter.com/adamlukas17\nEllis: https://twitter.com/EllisRovin\n\nInstagram:\nhttps://www.instagram.com/wvfrmpodcast/\n\nTikTok: \nhttps://www.tiktok.com/@waveformpodcast\n\nJoin the Discord:\nhttps://discord.gg/mkbhd\n\nMusic by 20syl:\nhttps://bit.ly/2S53xlC\n\nWaveform is part of the Vox Media Podcast Network.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vKAJTIJT8_w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vKAJTIJT8_w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vKAJTIJT8_w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vKAJTIJT8_w/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/vKAJTIJT8_w/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Waveform Clips",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-06T16:42:52Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "jL9urkL7Kd9VoGaBkq61SPOUuTY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "4jz9ZaMqqXg"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-08T12:28:59Z",
+                "channelId": "UCqvULRRboZeXVezSm_XduLQ",
+                "title": "THE BEST M2 MacBook Pro Accessories YOU Can Buy!",
+                "description": "Today lets go over what are 8 ESSENTIAL M2 MacBook Pro accessories!\n\nSo what are they?\n\nLets find out!\n\nStuart and Lau Bag \nhttps://stuartandlau.com/collections/the-cary-briefcase-double\n\niPhone Mount\nhttps://amzn.to/3x6rDxj\n\nNetgear Nighthawk M6 (THE BEST THING HERE)\nhttps://amzn.to/3X9qaB2\n\nLogitech MX Master 3\nhttps://amzn.to/3jFlZPE\n\nApple Magic Keyboard\nhttps://amzn.to/3DN9GHJ\n\nApple Charger\nhttps://amzn.to/3Yzdp3H\n\nMouse Pad\nhttps://amzn.to/40Cdl58\n\nListerine Tabs\nhttps://amzn.to/3jBaglj\n\nPS5 Controller\nhttps://amzn.to/3IakuCI\n\n———————What Gear I Recommend!——————————\n\nFirst Mac ( M1 Mac Mini)\nhttps://amzn.to/3nFbedz\n\nBest Macbook (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nBest Travel Professional Windows Laptop (XPS 17)\nhttps://amzn.to/3zjgKJ2\n\nBest Thunderbolt 3 Dock (cal digit TS3 Plus)\nhttps://amzn.to/2RcHwAE\n\nBest Beginner YouTube Camera (Sony A6100)\nhttps://amzn.to/2RfSxRI\n\nBest Overall YouTube Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\n—————What Gear I Use!————————————————\n\nMain Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\nMain Lens (Tamron 28-75)\nhttps://amzn.to/32VdQxC\n\nSecondary Lens (Tamron 17-28)\nhttps://amzn.to/3zhNthx\n\nMain Computer (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nDISCLAIMER: This video and description contains affiliate links, which means that if you click on one of the Amazon product links, I’ll receive a small commission.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4jz9ZaMqqXg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4jz9ZaMqqXg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4jz9ZaMqqXg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/4jz9ZaMqqXg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/4jz9ZaMqqXg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "The Everyday Dad",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-08T12:28:59Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Hzv3L4YANmHeccI6o0btqERk-os",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ju0nyBHPoyk"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-14T12:25:38Z",
+                "channelId": "UCqvULRRboZeXVezSm_XduLQ",
+                "title": "YOU Should Buy the Apple Watch Ultra, And Here's Why!",
+                "description": "SAVE 10% ON SQUARESPACE  Visit: https://squarespace.com/everydaydad and use the discount code “EVERYDAYDAD\" at check-out.\n\nThe Apple Watch Ultra has blown me away, I honestly didn't think a new Apple Watch would be able to impress me 8 generations later.  But darn it they were able to make one of the best items I've ever seen and you should totally buy one.\n\nWhy is that?\n\nLets find out!\n\nApple Watch Ultra\nhttps://amzn.to/3PqV2uw\n\nFollow me on Twitter!\nhttps://twitter.com/every_daydad\n\n———————What Gear I Recommend!——————————\n\nFirst Mac ( M1 Mac Mini)\nhttps://amzn.to/3nFbedz\n\nBest Macbook (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nBest Travel Professional Windows Laptop (XPS 17)\nhttps://amzn.to/3zjgKJ2\n\nBest Thunderbolt 3 Dock (cal digit TS3 Plus)\nhttps://amzn.to/2RcHwAE\n\nBest Beginner YouTube Camera (Sony A6100)\nhttps://amzn.to/2RfSxRI\n\nBest Overall YouTube Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\n—————What Gear I Use!————————————————\n\nMain Camera (Sony A7IV)\nhttps://amzn.to/3EY4n6p\n\nMain Lens (Tamron 28-75)\nhttps://amzn.to/32VdQxC\n\nSecondary Lens (Tamron 17-28)\nhttps://amzn.to/3zhNthx\n\nMain Computer (MacBook Pro 16)\nhttps://amzn.to/3qIB4iL\n\nDISCLAIMER: This video and description contains affiliate links, which means that if you click on one of the Amazon product links, I’ll receive a small commission.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ju0nyBHPoyk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ju0nyBHPoyk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ju0nyBHPoyk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/ju0nyBHPoyk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/ju0nyBHPoyk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "The Everyday Dad",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-14T12:25:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "fdYXB3VtK4-1cBDkFuK-DgvgExE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KITH5cdS7Xs"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-11T13:58:19Z",
+                "channelId": "UCC_NjLEb2Sley94py4vSYTA",
+                "title": "Modern Condo Desk Setup - Home Office Tour 2022",
+                "description": "Nothing like adding some nice maple goodies to a setup with https://grovemade.com/?rfsn=5252905.95c181 \n\nMy Office Supplies\nhttps://grovemade.com/?rfsn=5252905.95c181\n\nBest Standing Desks w/ Accessories\nhttps://shrsl.com/3q8ht\n\nBest Lights In The Game!\nhttps://shrsl.com/3rzjd\n\nWhere I get All My Music? Use VIDOZA50 (1 month free + 2 months 50% off).\nhttps://www.epidemicsound.com/referral/e1463n/\n\nWallpaper Featured In This Video\nhttps://gumroad.com/a/952456307\n\nThank You for the support, Andres.\n\n🔔 SUBSCRIBE for more \n📧 BUSINESS inquiries | andresvidoza@ankemedia.ca\n\n👋 Socials\n✨ Instagram | https://www.instagram.com/andresvidoza\n✨ Twitter | https://www.twitter.com/andres_vidoza\n✨ TikTok | https://www.tiktok.com/@andresvidoza\n\n📸 Featured products\nMouse | https://www.canadacomputers.com/product_info.php?cPath=21_5235&item_id=231389\nKeyboard | https://modedesigns.com/products/sonnet\nKeyboard cable | 🇨🇦 https://amzn.to/3uJk66q | 🇺🇸 https://amzn.to/3FPiwWQ\nDrawer Tray | https://bit.ly/3oKctdZ\nPen Cup | https://bit.ly/30eLy0c\nDish | https://bit.ly/3UNFQbW\nMini Planter | https://bit.ly/3iZLsmj\nTitaniu Pen w Stand | https://bit.ly/3BU1G7d\nNotepad | https://bit.ly/3Pn54g5\nLeather Book | https://bit.ly/3WcjtOn\nLeather Slim Book | https://bit.ly/3Fsm3ZM\nLeather Mousepad | https://bit.ly/3uNrCx4\nCoasters | https://bit.ly/3PmGZpE\nShelves | https://bit.ly/3W4hpbk\nKey holder | https://bit.ly/3VULGK0\nDesk Top | https://bit.ly/3VUUz66\nLegs | https://shrsl.com/3u8jy\nChair | https://store.hermanmiller.com/gaming-chairs/vantum-gaming-chair/2546179.html?lang=en_CA\nDrawers | https://www.ikea.com/ca/en/p/alex-drawer-unit-gray-turquoise-30483799/\nMonitor | https://www.gigabyte.com/Monitor/M32U-AE#kf\nSpeakers | 🇨🇦 https://amzn.to/3Wid84d | 🇺🇸 https://amzn.to/3WdE3hv\nSpeaker Cables | 🇨🇦 https://amzn.to/3YuWal4 | 🇺🇸 https://amzn.to/3iYiDGX\nPegBoards | https://bit.ly/3YuSiR4\nMicrophone | 🇨🇦 https://amzn.to/3FhQK3O | 🇺🇸 https://amzn.to/3uNadVo\nCable for Mic | 🇨🇦 https://amzn.to/3USyrIy | 🇺🇸 https://amzn.to/3HvYSR0\nAudio Interface | 🇨🇦 https://amzn.to/3UN9dew | 🇺🇸 https://amzn.to/3BvNHUQ\nBoom Arm | 🇨🇦 https://amzn.to/3iYHoCN | 🇺🇸 https://amzn.to/3BA3wd1\nLight | 🇨🇦 https://amzn.to/3Bw7ROe | 🇺🇸 https://amzn.to/3UVjsNZ\nLight Arm | 🇨🇦 https://amzn.to/3BvNOjh | 🇺🇸 https://amzn.to/3FoN80a\nHue Lightbar | 🇨🇦 https://amzn.to/3EOIs21 | 🇺🇸 https://amzn.to/3s0uqH1\nSSD Dock | 🇨🇦 https://amzn.to/3EQvelp | 🇺🇸 https://amzn.to/3FEUEph\nSSD Dock 2 | 🇨🇦 https://amzn.to/3Uoc8dL | 🇺🇸 https://amzn.to/3Dzjvs6\nLight 2 | 🇨🇦 https://amzn.to/3RutnIH | 🇺🇸 https://amzn.to/3rniIop\nLight Dome | 🇨🇦 https://amzn.to/3SNaXnl | 🇺🇸 https://amzn.to/3CqM2Rc\nArm Bracket | 🇨🇦 https://amzn.to/3fAGzhA | 🇺🇸 https://amzn.to/3RpR8kV\n\nAs an Amazon Associate, I earn a small commission from qualifying purchases. \n\n#DeskSetup #Condo #Tour\n-----------------------------------------------------------\n00:00 | Cinematic\n00:27 | Intro\n00:53 | Building the Desk\n01:47 | Ikea\n02:37 | Building the Top\n03:38 | Lightstrip\n04:05 | Controller configuration\n04:28 | Monitor\n05:10 | Peripherals\n06:39 | Grovemade\n07:43 | Pegboards\n08:30 | My Vacuum\n08:49 | Overhead Lighting\n09:12 | Pegboard Accessories\n09:36 | Cleaning Up\n10:11 | Finalizing the Bulk of the Setup\n11:04 | How to Install Grovemade Shelves\n12:01 | My Chair\n12:24 | Speakers\n13:18 | Is this a Success?\n\nThis video was sponsored by Grovemade",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KITH5cdS7Xs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KITH5cdS7Xs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KITH5cdS7Xs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/KITH5cdS7Xs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/KITH5cdS7Xs/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Andres Vidoza",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-11T13:58:19Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "u5TudIziDwv5BGXeutwZTOQ-V74",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Hhx_z9SHGeY"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-09T01:14:36Z",
+                "channelId": "UC0KfjyvabuE2J-RBC6ko2Lw",
+                "title": "Of all the Macs, get this one",
+                "description": "Visit https://www.squarespace.com/macaddress and use code macaddress to get 10% off\n\nThe new MacBook Pro's with M2 Pro and M2 Max chips are great machines, but are they enough of an improvement over their predecessors to be worth the extra cost? Let's take a look at what your best option is.\n\nCheck out the 14\" MacBook Pro M2 Pro: https://lmg.gg/jL7Zq\n\nCheck out the refurbished 14\" MacBook Pro M1 Pro: https://lmg.gg/6r0D1\n\nPurchases made through some store links may provide some compensation to Linus Media Group.\n\n► GET MERCH: https://lttstore.com\n► LTX 2023 TICKETS AVAILABLE NOW: https://lmg.gg/ltx23\n► GET EXCLUSIVE CONTENT ON FLOATPLANE: https://lmg.gg/lttfloatplane\n► SPONSORS, AFFILIATES, AND PARTNERS: https://lmg.gg/partners\n\nFOLLOW US ELSEWHERE\n---------------------------------------------------  \nTwitter: https://twitter.com/MacAddressYT\nInstagram: https://www.instagram.com/macaddressyt\nFacebook: https://www.facebook.com/MacAddressChannel\n\nCHAPTERS\n---------------------------------------------------\n0:00 Intro\n0:33 The sweet spot is sweet...\n1:10 ...but which is sweeter?\n1:38 M1 Pro vs M2 Pro Benchmarks\n2:00 A HOT take on the M2 Pro\n2:29 The new one has some solid improvements!\n2:52 But also some downgrades\n3:29 Thanks Squarespace\n4:03 The new 14\" has a few other tricks up its sleeve\n4:52 It's a hard choice, but...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Hhx_z9SHGeY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Hhx_z9SHGeY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Hhx_z9SHGeY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Hhx_z9SHGeY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Hhx_z9SHGeY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Mac Address",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-09T01:14:36Z"
+            }
+        }
+    ]
+}
