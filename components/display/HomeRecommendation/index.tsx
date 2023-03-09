@@ -4,16 +4,26 @@ import Image from "next/image";
 import Link from "next/link";
 import { useQuery } from "react-query";
 import { searchHandler } from "../../../lib/config/youtube";
-import {
-    generateColor,
-    replaceEscapeCharacters,
-    truncateString,
-} from "../../../lib/util";
+import { replaceEscapeCharacters, truncateString } from "../../../lib/util";
 import LoaderOverlay from "../../utility/LoaderOverlay";
 
 export type Props = {
     selectedCategory: string;
 };
+
+export function generateColor(title: string) {
+    const colors = [
+        "bg-red",
+        "bg-yellow-500",
+        "bg-green-500",
+        "bg-blue-500",
+        "bg-indigo-500",
+        "bg-purple-500",
+        "bg-pink-500",
+    ];
+    const index = title.charCodeAt(0) % colors.length;
+    return colors[index];
+}
 
 const HomeRecommendation: React.FC<Props> = ({ selectedCategory }) => {
     const { data, error, isError, isLoading } = useQuery(
