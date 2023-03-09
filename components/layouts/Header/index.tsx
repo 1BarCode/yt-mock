@@ -89,13 +89,15 @@ const Header: React.FC = () => {
                     >
                         <MoreVertRoundedIcon />
                     </Button>
-                    <Button
-                        className="flex justify-center items-center text-blue-400 bg-black-900 border-[1px] border-black-300 h-[34px] w-25"
-                        rounded
-                    >
-                        <FontAwesomeIcon icon={faUser} className="mr-2" />
-                        Sign in
-                    </Button>
+                    <Link href={"/signin"}>
+                        <Button
+                            className="flex justify-center items-center text-blue-400 bg-black-900 border-[1px] border-black-300 h-9 w-25"
+                            rounded
+                        >
+                            <FontAwesomeIcon icon={faUser} className="mr-2" />
+                            Sign in
+                        </Button>
+                    </Link>
                 </div>
             </nav>
         </header>

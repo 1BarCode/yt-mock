@@ -86,10 +86,7 @@ const Watch: NextPageWithLayout = () => {
 
 Watch.getLayout = function getLayout(page: ReactElement) {
     return (
-        <PrimaryLayout
-            drawer={false}
-            backgroundColor="bg-gradient-to-r from-black-500 to-black-900"
-        >
+        <PrimaryLayout drawer={false} backgroundColor="bg-black-900">
             {page}
         </PrimaryLayout>
     );

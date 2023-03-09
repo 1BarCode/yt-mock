@@ -51,7 +51,7 @@ const HorizontalVideoCard: React.FC<Props> = ({ video }) => {
             </Link>
 
             <Button
-                className="bg-black-900 flex justify-center items-center h-6 w-1"
+                className="flex justify-center items-center h-6 w-1 bg-inherit"
                 rounded
             >
                 <MoreVertRoundedIcon />
