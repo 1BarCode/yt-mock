@@ -3,11 +3,11 @@
 import { Props } from ".";
 
 const base: Props = {
-    sampleTextProps: "Hello World!",
+    children: "Hello World!",
 };
 
 const alt: Props = {
-    sampleTextProps: "Hello Alt World!",
+    children: "Hello Alt World!",
 };
 
 export const mockAuthLayoutProps = {
