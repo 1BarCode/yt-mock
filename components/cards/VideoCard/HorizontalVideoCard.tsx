@@ -11,7 +11,7 @@ export type Props = {
 
 const HorizontalVideoCard: React.FC<Props> = ({ video }) => {
     return (
-        <div className="w-full flex rounded-l-lg">
+        <div className="w-full flex rounded-lg">
             <Link
                 href={{
                     pathname: "/watch",
@@ -27,7 +27,7 @@ const HorizontalVideoCard: React.FC<Props> = ({ video }) => {
                     alt="thumbnail"
                     width={168}
                     height={94}
-                    className="rounded-l-lg"
+                    className="rounded-lg"
                 />
 
                 <div className="flex flex-col gap-y-0.5 pl-2">

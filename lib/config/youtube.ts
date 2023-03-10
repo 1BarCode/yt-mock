@@ -12,7 +12,6 @@ export const searchHandler = (query: string) => {
         params: {
             part: "snippet",
             key: api_key,
-            // key: "abc",
             type: "video",
             maxResults: 15,
             q: query,
