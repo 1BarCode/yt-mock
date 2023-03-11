@@ -11,7 +11,7 @@ export type Props = {
 
 const HorizontalVideoCard: React.FC<Props> = ({ video }) => {
     return (
-        <div className="w-full flex rounded-lg">
+        <div className="w-[402px] h-[94px] flex rounded-lg">
             <Link
                 href={{
                     pathname: "/watch",
@@ -30,12 +30,12 @@ const HorizontalVideoCard: React.FC<Props> = ({ video }) => {
                     className="rounded-lg"
                 />
 
-                <div className="flex flex-col gap-y-0.5 pl-2">
+                <div className="flex flex-col gap-y-0.5 pl-2 w-full">
                     <div className="">
                         <span className="font-medium text-base">
                             {truncateString(
                                 replaceEscapeCharacters(video.snippet.title),
-                                43
+                                40
                             )}
                         </span>
                     </div>
