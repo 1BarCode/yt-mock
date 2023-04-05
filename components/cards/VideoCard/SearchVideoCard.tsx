@@ -1,5 +1,6 @@
 import MoreVertRoundedIcon from "@mui/icons-material/MoreVertRounded";
 import moment from "moment";
+import Image from "next/image";
 import Link from "next/link";
 import { replaceEscapeCharacters, truncateString } from "../../../lib/util";
 import Button from "../../inputs/Button";
@@ -18,7 +19,7 @@ const SearchVideoCard: React.FC<Props> = ({ video }) => {
                 }}
             >
                 <div className="flex gap-x-2">
-                    <img
+                    <Image
                         src={
                             video.snippet.thumbnails.medium.url ||
                             video.snippet.thumbnails.default.url
