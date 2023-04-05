@@ -7,6 +7,7 @@ import MicRoundedIcon from "@mui/icons-material/MicRounded";
 import MoreVertRoundedIcon from "@mui/icons-material/MoreVertRounded";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import ytlogo from "../../../public/yt_logo_rgb_dark.png";
@@ -17,11 +18,12 @@ type Search = {
 };
 
 const searchSchema = yup.object().shape({
-    search: yup.string().required(),
+    search: yup.string().required("Search is required"),
 });
 
 const Header: React.FC = () => {
-    const { register, handleSubmit } = useForm<Search>({
+    const router = useRouter();
+    const { register, handleSubmit, reset } = useForm<Search>({
         resolver: yupResolver(searchSchema),
         defaultValues: {
             search: "",
@@ -29,9 +31,12 @@ const Header: React.FC = () => {
     });
 
     const onSubmit = async (query: Search) => {
-        console.log("query", query);
-
-        console.log("making api call");
+        router.push({
+            pathname: "/results",
+            query: {
+                search_query: query.search,
+            },
+        });
     };
 
     return (
