@@ -23,7 +23,7 @@ const searchSchema = yup.object().shape({
 
 const Header: React.FC = () => {
     const router = useRouter();
-    const { register, handleSubmit, reset } = useForm<Search>({
+    const { register, handleSubmit } = useForm<Search>({
         resolver: yupResolver(searchSchema),
         defaultValues: {
             search: "",
