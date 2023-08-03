@@ -24,6 +24,8 @@ const SearchVideoCard: React.FC<Props> = ({ video }) => {
                             video.snippet.thumbnails.medium.url ||
                             video.snippet.thumbnails.default.url
                         }
+                        width={168}
+                        height={94}
                         alt="thumbnail"
                         className="w-[168px] h-[94px] rounded-lg"
                     />

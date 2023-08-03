@@ -22,7 +22,7 @@ const Results: NextPageWithLayout = () => {
         }
     );
 
-    console.log(data);
+    // console.log(data);
 
     if (isLoading) return <LoaderOverlay isLoading={isLoading} />;
 

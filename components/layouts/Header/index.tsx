@@ -8,8 +8,10 @@ import MoreVertRoundedIcon from "@mui/icons-material/MoreVertRounded";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
+import { useSearch } from "../../../lib/context/SearchProvider";
 import ytlogo from "../../../public/yt_logo_rgb_dark.png";
 import Button from "../../inputs/Button";
 
@@ -23,19 +25,50 @@ const searchSchema = yup.object().shape({
 
 const Header: React.FC = () => {
     const router = useRouter();
-    const { register, handleSubmit } = useForm<Search>({
+
+    const { search_query } = router.query; // from URL query string
+    const { searchQuery: searchQueryFromContext, setSearchQuery } = useSearch(); // from context
+
+    const { register, handleSubmit, setValue } = useForm<Search>({
         resolver: yupResolver(searchSchema),
         defaultValues: {
-            search: "",
+            search: search_query
+                ? search_query.toString()
+                : searchQueryFromContext
+                ? searchQueryFromContext
+                : "",
         },
     });
 
-    const onSubmit = async (query: Search) => {
+    useEffect(() => {
+        // Synchronize the search_query from URL query string with the searchQuery from context
+        // Update the default value for "search" field when search_query changes
+        // This is to prevent the search field from being empty when the user refreshes the page
+        // or when they navigate to other pages from results page
+        // For example: results -> watch -> results
+        if (
+            search_query &&
+            search_query.toString() !== searchQueryFromContext
+        ) {
+            setSearchQuery(search_query.toString());
+            setValue("search", search_query.toString());
+        }
+
+        if (!search_query && searchQueryFromContext) {
+            setValue("search", searchQueryFromContext);
+        }
+    }, [search_query, searchQueryFromContext, setValue, setSearchQuery]);
+
+    const onSubmit = async (data: Search) => {
+        setSearchQuery(data.search);
+
+        const params = new URLSearchParams({
+            search_query: data.search,
+        });
+
         router.push({
             pathname: "/results",
-            query: {
-                search_query: query.search,
-            },
+            search: params.toString(),
         });
     };
 

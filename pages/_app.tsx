@@ -8,6 +8,7 @@ import type { NextPage } from "next";
 import type { AppProps } from "next/app";
 import { ReactElement, ReactNode, useState } from "react";
 import { QueryClient, QueryClientProvider } from "react-query";
+import SearchProvider from "../lib/context/SearchProvider";
 import "../styles/globals.css";
 config.autoAddCss = false;
 
@@ -36,7 +37,9 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
 
     return (
         <QueryClientProvider client={queryClient}>
-            {getLayout(<Component {...pageProps} />)}
+            <SearchProvider>
+                {getLayout(<Component {...pageProps} />)}
+            </SearchProvider>
         </QueryClientProvider>
     );
 }
