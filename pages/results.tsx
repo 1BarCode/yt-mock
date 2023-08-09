@@ -28,9 +28,11 @@ const Results: NextPageWithLayout = () => {
 
     return (
         <section>
-            <div className="pt-6">Search Results for: {search_query}</div>
+            <div className="pt-6 w-[1280px] pb-4 mx-auto">
+                Search Results for: {search_query}
+            </div>
             <div className="space-y-6 px-6 pb-4 d-flex">
-                <div className="w-[1280px] mx-auto">
+                <div className="w-[1280px] mx-auto flex flex-col gap-y-2">
                     {data?.data.items.map((video: any) => (
                         <VideoCard
                             variant="search"
