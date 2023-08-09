@@ -113,7 +113,7 @@ const Header: React.FC = () => {
                         </Button>
                     </form>
                     <Button
-                        className="bg-black-900 px-2 flex justify-center items-center ml-2 h-10 w-10"
+                        className="bg-black-500 px-2 flex justify-center items-center ml-2 h-10 w-10"
                         rounded
                     >
                         <MicRoundedIcon />
