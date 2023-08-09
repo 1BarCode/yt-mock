@@ -2,7 +2,11 @@ import MoreVertRoundedIcon from "@mui/icons-material/MoreVertRounded";
 import moment from "moment";
 import Image from "next/image";
 import Link from "next/link";
-import { replaceEscapeCharacters, truncateString } from "../../../lib/util";
+import {
+    generateRandomNumber,
+    replaceEscapeCharacters,
+    truncateString,
+} from "../../../lib/util";
 import Button from "../../inputs/Button";
 
 export type Props = {
@@ -10,6 +14,8 @@ export type Props = {
 };
 
 const HorizontalVideoCard: React.FC<Props> = ({ video }) => {
+    const randomViews = generateRandomNumber(100, 999);
+
     return (
         <div className="w-[402px] h-[94px] flex rounded-lg">
             <Link
@@ -43,7 +49,7 @@ const HorizontalVideoCard: React.FC<Props> = ({ video }) => {
                     <div className="text-gray-400 text-[13px] flex flex-col leading-4">
                         <span>{video.snippet.channelTitle}</span>
                         <span>
-                            155K views •{" "}
+                            {randomViews}K views •{" "}
                             {moment(video.snippet.publishedAt).fromNow()}
                         </span>
                     </div>

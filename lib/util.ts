@@ -27,3 +27,7 @@ export function replaceEscapeCharacters(str: string) {
     str = str.replace(/&amp;/g, "&");
     return str;
 }
+
+export function generateRandomNumber(min: number, max: number) {
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}

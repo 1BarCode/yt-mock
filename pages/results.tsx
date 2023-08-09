@@ -22,8 +22,6 @@ const Results: NextPageWithLayout = () => {
         }
     );
 
-    // console.log(data);
-
     if (isLoading) return <LoaderOverlay isLoading={isLoading} />;
 
     if (isError) return <div>{error.message}</div>;
@@ -31,14 +29,16 @@ const Results: NextPageWithLayout = () => {
     return (
         <section>
             <div className="pt-6">Search Results for: {search_query}</div>
-            <div className="space-y-6">
-                {data?.data.items.map((video: any) => (
-                    <VideoCard
-                        variant="search"
-                        video={video}
-                        key={video.id.videoId}
-                    />
-                ))}
+            <div className="space-y-6 px-6 pb-4 d-flex">
+                <div className="w-[1280px] mx-auto">
+                    {data?.data.items.map((video: any) => (
+                        <VideoCard
+                            variant="search"
+                            video={video}
+                            key={video.id.videoId}
+                        />
+                    ))}
+                </div>
             </div>
         </section>
     );

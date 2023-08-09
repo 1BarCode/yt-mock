@@ -2,7 +2,11 @@ import MoreVertRoundedIcon from "@mui/icons-material/MoreVertRounded";
 import moment from "moment";
 import Image from "next/image";
 import Link from "next/link";
-import { replaceEscapeCharacters, truncateString } from "../../../lib/util";
+import {
+    generateRandomNumber,
+    replaceEscapeCharacters,
+    truncateString,
+} from "../../../lib/util";
 import Button from "../../inputs/Button";
 
 export type Props = {
@@ -10,8 +14,9 @@ export type Props = {
 };
 
 const SearchVideoCard: React.FC<Props> = ({ video }) => {
+    const randomViews = generateRandomNumber(100, 999);
     return (
-        <div>
+        <div className="w-[1096px]">
             <Link
                 href={{
                     pathname: "/watch",
@@ -24,10 +29,10 @@ const SearchVideoCard: React.FC<Props> = ({ video }) => {
                             video.snippet.thumbnails.medium.url ||
                             video.snippet.thumbnails.default.url
                         }
-                        width={168}
-                        height={94}
+                        width={360}
+                        height={202}
                         alt="thumbnail"
-                        className="w-[168px] h-[94px] rounded-lg"
+                        className="w-[360px] h-[202px] rounded-lg"
                     />
 
                     <div className="flex flex-col gap-y-0.5">
@@ -45,7 +50,7 @@ const SearchVideoCard: React.FC<Props> = ({ video }) => {
                         <div className="text-gray-400 text-[13px] flex flex-col leading-4">
                             <span>{video.snippet.channelTitle}</span>
                             <span>
-                                155K views •{" "}
+                                {randomViews}K views •{" "}
                                 {moment(video.snippet.publishedAt).fromNow()}
                             </span>
                         </div>
